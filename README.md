@@ -32,8 +32,11 @@ The label distribution plot reveals how balanced Tor vs Non-Tor classes are.
 3. Machine learning model
    ![evaluationn](used%20screenshots/evaluationn.png)
    The code trains a Random Forest Classifier on the darknet dataset to classify network traffic and evaluates its performance using a classification report, confusion matrix, and weighted metrics. The model achieved about 98.5% accuracy, with high precision, recall, and F1-scores across all classes, showing it reliably distinguishes normal and potentially malicious traffic. The confusion matrix indicates very few misclassifications, confirming the model is highly effective for darknet traffic detection.
+   
    4. Power BI Dashboard.
+      
       ![dashboard](used%20screenshots/dashboard.png)
+      
       This is the screenshot of the dashboard, you may also find its file to download
 
 
