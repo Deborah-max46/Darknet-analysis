@@ -3,7 +3,7 @@
 
 ---
 
-## PART 1: PROBLEM DEFINITION & PLANNING
+## PROBLEM DEFINITION & PLANNING
 
 ### I. Sector Selection
 Cybersecurity
@@ -18,9 +18,8 @@ How can we use flow-based network data to accurately detect and differentiate be
 - Data Structure: csv file
 - Data Status: needs preprocessing.
 
----
 
-
-## PART 2: PYTHON ANALYTICS TASKS
+## PYTHON ANALYTICS TASKS
 1. Clean the Dataset
+   ![used screenshot](screenshots/Data cleaning.png)
 
