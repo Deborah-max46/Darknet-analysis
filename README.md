@@ -21,5 +21,18 @@ How can we use flow-based network data to accurately detect and differentiate be
 
 ## PYTHON ANALYTICS TASKS
 1. Clean the Dataset
-   ![used screenshot](screenshots/Data cleaning.png)
+   ![Data Cleaning](used%20screenshots/Data%20cleaning.png)
+   The code loads the **Darknet dataset (158,616 rows × 85 columns)**, checks for **missing values** *(none found)*, removes an irrelevant **"Flow Bytes/s"** column, drops any **NaN rows**, encodes the **"Label"** column into numbers, and deletes identifier columns like **IP addresses** and **timestamps** to keep only useful features for **analysis or modeling**.
+2. Conduct Exploratory Data Analysis (EDA)
+   ![Data Cleaning](used%20screenshots/Data%20cleaning.png)
+   The code shows that after cleaning, the dataset has 79 usable columns and 158,616 records.
+The numeric summary (df.describe()) gives ranges, averages, and variation for each feature, showing wide value differences between network traffic attributes.
+The label distribution plot reveals how balanced Tor vs Non-Tor classes are.
+![Data Cleaning](used%20screenshots/Data%20cleaning.png)
+3. Machine learning model
+   ![Data Cleaning](used%20screenshots/Data%20cleaning.png)
+   The code trains a Random Forest Classifier on the darknet dataset to classify network traffic and evaluates its performance using a classification report, confusion matrix, and weighted metrics. The model achieved about 98.5% accuracy, with high precision, recall, and F1-scores across all classes, showing it reliably distinguishes normal and potentially malicious traffic. The confusion matrix indicates very few misclassifications, confirming the model is highly effective for darknet traffic detection.
+
+
+
 
