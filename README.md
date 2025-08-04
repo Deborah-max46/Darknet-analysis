@@ -1,15 +1,26 @@
-Sector: Cybersecurity / Internet Safety
-Problem Statement:
-"Can we detect and classify network traffic as normal or malicious to prevent darknet threats?"
+# Name: Uwase Ketsia Deborah
+# ID: 26244
 
-Dataset Info:
+---
 
-Dataset Title: Darknet Network Traffic Dataset
+## PART 1: PROBLEM DEFINITION & PLANNING
 
-Source Link: https://www.unb.ca/cic/datasets/darknet2020.html
+### I. Sector Selection
+Cybersecurity
 
-Rows & Columns: 158616, 81
+### II. Problem Statement
+How can we use flow-based network data to accurately detect and differentiate between Tor and Non-Tor traffic in darknet environments?
 
-Structure: Structured (CSV)
+### III. Dataset Identification
+- Dataset Title: Darknet
+- Source Link: DarkNet
+- Number of Rows and Columns: 158616, 85
+- Data Structure: csv file
+- Data Status: needs preprocessing.
 
-Status: Requires preprocessing
+---
+
+
+## PART 2: PYTHON ANALYTICS TASKS
+1. Clean the Dataset
+
